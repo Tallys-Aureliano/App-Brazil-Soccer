@@ -23,21 +23,21 @@ O aplicativo para Android, IOS e Web, desenvolvido em Flutter e utilizando toda 
 
 ## Como executar:
 
-* Passo 1:
+* Passo 1: Baixe o projeto
       
       git clone git@github.com:italo-mauricio/App-Brasileirao.git
     
-* Passo 2:
+* Passo 2: Entre na pasta do projeto utilizando do projeto
+      
+      cd brasileirao.
+      
+* Passo 3: Baixe as dependências
+ 
+      flutter pub get
+      
+* Passo 4: Rode a aplicação
 
-      Entre na pasta do projeto utilizando o comando "cd brasileirao".
-      
-* Passo 3:
-      
-      Use o comando flutter pub get
-      
-* Passo 4:
-
-      Utilize o comando "flutter run -d (seu navegador de preferência) --web-renderer html".
+      flutter run -d (seu navegador de preferência) --web-renderer html
 
 ## Estrutura do projeto
 ```
